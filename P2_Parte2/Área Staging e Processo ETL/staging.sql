@@ -1,23 +1,23 @@
-+---------------------------------------------------------------------------------
-| UFRJ – Universidade Federal do Rio de Janeiro
-| IM   – Instituto de Matemática
-| DMA  – Departamento de Matemática Aplicada
-|
-| EEL890 - Big Data (turma SIGA 16338)
-|
-| Avaliação 02: Modelagem de Data Warehouse
-| PARTE II - Modelagem DW
-|
-| Alunos:
-| Gabriel Rodrigues da Silva - 121044858
-| Giovanni Paes Leme da Gama Rodrigues - 117054744
-| Gabriel Brígido Pinheiro da Silva - 120056519
-| Nicolas Viana do Espírito Santo - 121042953
-|
-| Link do GitHub: https://github.com/gbrods/EEL890_BigData/tree/main/P2_Parte2
-|
-| Descrição do arquivo: Cria o schema e as tabelas na Staging Area para posteriormente receber os dados brutos dos outros grupos.
-+---------------------------------------------------------------------------------
+-- =======================================================================================
+-- UFRJ – Universidade Federal do Rio de Janeiro
+-- IM   – Instituto de Matemática
+-- DMA  – Departamento de Matemática Aplicada
+--
+-- EEL890 - Big Data (turma SIGA 16338)
+--
+-- Avaliação 02: Modelagem de Data Warehouse
+-- PARTE II - Modelagem DW
+--
+-- Alunos:
+-- Gabriel Rodrigues da Silva - 121044858
+-- Giovanni Paes Leme da Gama Rodrigues - 117054744
+-- Gabriel Brígido Pinheiro da Silva - 120056519
+-- Nicolas Viana do Espírito Santo - 121042953
+--
+-- Link do GitHub: https://github.com/gbrods/EEL890_BigData/tree/main/P2_Parte2
+--
+-- Descrição: Cria o schema e as tabelas na Staging Area para posteriormente receber os dados brutos dos outros grupos.
+-- =======================================================================================
 
 CREATE SCHEMA IF NOT EXISTS `staging_area` DEFAULT CHARACTER SET utf8mb4 ;
 USE `staging_area` ;
