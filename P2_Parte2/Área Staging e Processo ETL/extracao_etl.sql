@@ -16,8 +16,8 @@
 --
 -- Link do GitHub: https://github.com/gbrods/EEL890_BigData/tree/main/P2_Parte2
 --
--- Arquivo: 02_extracao_etl_final.sql
--- Descrição: Extrai os dados de TODOS os sistemas de origem (Nosso Grupo, Grupo 1, Grupo 2 e Grupo 3)
+-- Arquivo: extracao_etl.sql
+-- Descrição: Extrai os dados de TODOS os sistemas de origem (Meu Grupo, Grupo 1, Grupo 2 e Grupo 3)
 --            e carrega nas tabelas da Staging Area.
 -- Acionamento: Agendado para execução diária (ex: 00:00).
 -- =======================================================================================
